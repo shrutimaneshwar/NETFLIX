@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url(image.jpg/bg.jpg)
+    background-size:100vw;
+    height:80px;
+    position:relative;
+    opacity: 0.88;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(image.jpg/bg.jpg);
+    font-style:bold;
+    width:100%;
+    height:100vh;
+    background-color: black;
+}
+.dropdown{
+    align-items: center;
+    background-color: black;
+    color:black;
+
+}
+.header{
+    display:flex;
+    align-items:space-between;
+    justify-content:space-between;
+    padding:10px 20px;
+    height: 100px;;
+
+}
+.main-container{
+    font-size:larger;
+    color:white;
+    padding:10px 20px;
+}
+
+.sub-container{
+    font-style:oblique;
+   font-size:large;
+    color: white;
+    padding:10px 20px;
+}
+
+.sub-container1{
+    font-size:small;
+    color:white;
+    font-style: normal;
+    padding:10px 20px;
+}
+.form{
+    display:flex;
+    background: transparent;
+    padding:10px 20px;
+    justify-content:center;
+    align-items: center;
+    font-style: normal;
+    font-size: medium;
+}
+.Email{
+    display:flex;
+    background-color: white;
+    justify-content: center;
+    block-size: 40px 60px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    padding: 10px 30px;
+  border:100px;
+}
+.btn-Get-Started:Hover {
+   background-color: red;
+   color: white;
+   align-content: center;
+   margin: 330px;
+}
